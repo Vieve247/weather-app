@@ -3,23 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather App</title>
   </head>
   <body>
     <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
+        <div class="weather-app">
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city.." 
+        required 
+        id="search-form-input" />
         <input type="submit" value="Search" />
       </form>
       <main>
-       <div><h1>London</h1>
-        <p>
-          Thursday 11:37, cloudy</div>
+       <div><h1 class="weather-app-city" id="city">London</h1></div>
+        <div><p>
+          Thursday 11:37, cloudy
           <br />
          <div> 15°C ☁️ </div>
           <br />
-          <div>Humidity: 66%, Wind: 3.13km/h </div>
-        </p>
+          Humidity: 66%, Wind: 3.13km/h
+        </p></div>
         
       </main>
     </header>
@@ -35,5 +40,7 @@
       and
       <a href="#" target="_blank">hosted on Netlify</a>
     </footer>
+</div>
+<script src="index.js"> </script>
   </body>
 </html>
