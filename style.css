@@ -1,4 +1,17 @@
 body {
-    background-color: grey;
+  background: linear-gradient(
+    89.2deg,
+    rgb(191, 241, 236) 22.3%,
+    rgb(109, 192, 236) 84.1%
+  );
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
 }
 
+footer {
+}
+form {
+}
