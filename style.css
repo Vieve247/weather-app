@@ -10,8 +10,25 @@ h1 {
 }
 p {
 }
-
+.search-button {
+  background-color: white;
+}
 footer {
+  text-align: center;
+  font-weight: lighter;
 }
 form {
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 60px auto;
+}
+.weather-app {
+  background: white;
+  text-align: center;
+  border-radius: 30px;
+  opacity: 70%;
+  max-width: 600px;
+  margin: 60px auto;
 }
