@@ -9,7 +9,9 @@
   </head>
   <body>
     <header>
-       
+      
+       <div class="weather-app">
+        <br>
       <form class="search-form" id="search-form">
         <input type="search" placeholder="Enter a city.." 
         required 
@@ -17,15 +19,18 @@
        <div class="search-button"> <input type="submit" value="Search" /> </div>
       </form>
       <main>
-         <div class="weather-app">
+        <div id="icon">
+          <img src="https://openweathermap.org/img/wn/10d@2x.png" class="weather-app-icon">
+        </div>
        <div><h1 class="weather-app-city" id="city">London</h1></div>
-        <div><p>
+        <div><p> <div><div class="weather-app-temperature" id="temperature"> 15 </div><span class="weather-app-unit">C°</span></div>
           Thursday 11:37, cloudy
           <br />
-         <div class="weather-app-temperature" id="temperature"> 15<span>"°C"</span> ☁️ </div>
+         
           <br />
           Humidity: 66%, Wind: 3.13km/h
         </p></div>
+      </div>
         
       </main>
     </header>

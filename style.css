@@ -23,12 +23,22 @@ form {
   border-radius: 20px;
   max-width: 600px;
   margin: 60px auto;
+  margin-top: 10px;
+}
+
+.weather-app-icon {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  opacity: 100%;
 }
 .weather-app {
   background: white;
   text-align: center;
   border-radius: 30px;
-  opacity: 70%;
+  opacity: 60%;
   max-width: 600px;
-  margin: 60px auto;
+  margin: 60px auto 60px;
 }
+
+
